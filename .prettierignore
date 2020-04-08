@@ -1,0 +1,6 @@
+dist
+src/libs
+.vscode/*
+node_modules
+secure
+uploads
