@@ -4,3 +4,4 @@ src/libs
 node_modules
 secure
 uploads
+dummy/*

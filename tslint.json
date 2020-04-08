@@ -1,7 +1,7 @@
 {
   "extends": ["tslint:recommended", "tslint-config-prettier"],
   "linterOptions": {
-    "exclude": ["./e2e/**", "./src/polyfills.ts", "./src/test.ts", "./src/environments/**"]
+    "exclude": ["./e2e/**", "./src/polyfills.ts", "./src/test.ts", "./src/environments/**", "./dummy/**"]
   },
   "rules": {
     "member-access": true,
@@ -21,7 +21,12 @@
       "options": ["check-format", "allow-pascal-case", "allow-leading-underscore"]
     },
     "no-var-keyword": true,
-    "no-duplicate-imports": [true, { "allow-namespace-imports": true }],
+    "no-duplicate-imports": [
+      true,
+      {
+        "allow-namespace-imports": true
+      }
+    ],
     "no-duplicate-super": true,
     "only-arrow-functions": true,
     "no-duplicate-switch-case": true,
