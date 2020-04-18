@@ -1,4 +1,5 @@
 {
   "editor.formatOnSave": true,
-  "prettier.ignorePath": "../.prettierignore"
+  "prettier.ignorePath": "../.prettierignore",
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
