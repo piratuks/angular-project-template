@@ -1,6 +1,6 @@
 # Template
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.0.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.0. <br />
 This is configured empty project with preferred lint rules. Also contains prettier integration.
 
 ## Development server
