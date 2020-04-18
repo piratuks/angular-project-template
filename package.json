@@ -10,7 +10,6 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "clean": "gulp clean",
     "run": "ng serve&&node server.js"
   },
   "husky": {
