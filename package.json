@@ -1,8 +1,8 @@
 {
-  "name": "extern---tripwiresolutions-accelerator",
-  "version": "4.1.13",
-  "description": "Tripwire Solutions Accelerator",
-  "author": "Jelle Butzen & Pieter Van der Elst & Lorenz Gillisjans",
+  "name": "template",
+  "version": "1.0.0",
+  "description": "Template project",
+  "author": "Evaldas Laureckas",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -34,7 +34,7 @@
     "@angular/platform-browser": "^8.0.0",
     "@angular/platform-browser-dynamic": "^8.0.0",
     "@angular/router": "^8.0.0",
-    "@ngx-translate/core": "^12.1.1",
+    "@ngx-translate/core": "^12.1.2",
     "@ngx-translate/http-loader": "^4.0.0",
     "font-awesome": "^4.7.0",
     "husky": "^4.2.3",
