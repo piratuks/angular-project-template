@@ -68,4 +68,4 @@ Production - Applications FE side is under `dist/` which is attached to the angu
 
 Typescript version 3.4.5
 Angular 8
-Node version must be 10,11,12,13
+Node version must be 10, 11, 12, 13
