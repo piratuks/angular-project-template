@@ -23,16 +23,9 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "aot": true,
-            "assets": [
-              "src/assets"
-            ],
-            "styles": [
-              "node_modules/font-awesome/css/font-awesome.min.css",
-              "src/styles.scss"
-            ],
-            "scripts": [
-              "node_modules/jquery/dist/jquery.min.js"
-            ]
+            "assets": ["src/assets"],
+            "styles": ["node_modules/font-awesome/css/font-awesome.min.css", "src/styles.scss"],
+            "scripts": ["node_modules/jquery/dist/jquery.min.js"]
           },
           "configurations": {
             "production": {
@@ -89,28 +82,23 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
-            "assets": [
-              "src/assets"
-            ],
-            "styles": [
-              "node_modules/font-awesome/css/font-awesome.min.css",
-              "src/styles.scss"
-            ],
-            "scripts": [
-              "node_modules/jquery/dist/jquery.min.js"
-            ]
+            "assets": ["src/assets"],
+            "styles": ["node_modules/font-awesome/css/font-awesome.min.css", "src/styles.scss"],
+            "scripts": ["node_modules/jquery/dist/jquery.min.js"]
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
-            "tsConfig": [
-              "tsconfig.app.json",
-              "tsconfig.spec.json",
-              "e2e/tsconfig.json"
-            ],
+            "tsConfig": ["tsconfig.app.json", "tsconfig.spec.json", "e2e/tsconfig.json"],
             "exclude": [
-              "**/node_modules/**"
+              "**/node_modules/**",
+              "**/e2e/**",
+              "**/dist/**",
+              "./src/polyfills.ts",
+              "./src/test.ts",
+              "./src/main.ts",
+              "./src/environments/**"
             ]
           }
         },

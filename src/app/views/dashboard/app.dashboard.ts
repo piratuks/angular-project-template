@@ -1,13 +1,13 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, OnInit, OnDestroy } from "@angular/core";
 // import { Subscription } from 'rxjs';
 
 /**
  * Main controller for route "/dashboard")
  */
 @Component({
-  selector: 'app-dashboard-view',
-  templateUrl: './app.dashboard.html',
-  styleUrls: ['./app.dashboard.scss'],
+  selector: "app-dashboard-view",
+  templateUrl: "./app.dashboard.html",
+  styleUrls: ["./app.dashboard.scss"],
 })
 export class DashboardComponent implements OnInit, OnDestroy {
   /**
@@ -17,7 +17,7 @@ export class DashboardComponent implements OnInit, OnDestroy {
   // private subscriptions: Subscription[] = new Array();
 
   constructor() {
-    console.log('Dashboard');
+    console.log("Dashboard");
     // this.subscriptions = new Array();
   }
 
@@ -25,13 +25,13 @@ export class DashboardComponent implements OnInit, OnDestroy {
    * Method of interface OnInit
    */
   public ngOnInit(): void {
-    console.log('Dashboard ngOnInit');
+    console.log("Dashboard ngOnInit");
   }
 
   /**
    * Method of interface OnDestroy
    */
   public ngOnDestroy(): void {
-    console.log('Dashboard ngOnDestroy');
+    console.log("Dashboard ngOnDestroy");
   }
 }

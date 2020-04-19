@@ -1,18 +1,18 @@
-import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
-import { AppComponent } from './components/main/app.component';
-import { DashboardComponent } from './views/dashboard/app.dashboard';
+import { NgModule } from "@angular/core";
+import { Routes, RouterModule } from "@angular/router";
+import { AppComponent } from "./components/main/app.component";
+import { DashboardComponent } from "./views/dashboard/app.dashboard";
 
 const routes: Routes = [
   {
-    path: 'home',
+    path: "home",
     component: DashboardComponent,
-    data: { title: 'Home - test project' },
+    data: { title: "Home - test project" },
   },
   {
-    path: '**',
+    path: "**",
     component: AppComponent,
-    data: { title: 'Home - test project' },
+    data: { title: "Home - test project" },
   },
 ];
 
