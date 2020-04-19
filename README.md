@@ -2,12 +2,11 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.0. <br />
 This is preferred empty project template which contains:
-  - Preferred lint rules.
+  - Preferred lint rules which are implemented with https://github.com/piratuks/code-style-config
   - Prettier integration.
+  - Husky and Lint-staged integration.
   - Translation module ready for further explotation.
-  - Toast module ready for further explotation.
-  - Sweetalert 2 ready for further explotation.
-  - Font awesome ready for further explotation.
+  - Some other basic modules for my preferred usage (which can easily be removed or changed).
 
 ## Development server
 
