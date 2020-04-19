@@ -2,11 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.0. <br />
 This is preferred empty project template which contains:
-  - Preferred lint rules which are implemented with https://github.com/piratuks/code-style-config
-  - Prettier integration.
-  - Husky and Lint-staged integration.
-  - Translation module ready for further explotation.
-  - Some other basic modules for my preferred usage (which can easily be removed or changed).
+
+- Preferred lint rules which are implemented with https://github.com/piratuks/code-style-config
+- Prettier integration.
+- Husky and Lint-staged integration.
+- Translation module ready for further explotation.
+- Some other basic modules for my preferred usage (which can easily be removed or changed).
 
 ## Development server
 
@@ -65,6 +66,17 @@ Production - Applications FE side is under `dist/` which is attached to the angu
 
 ### Requirements
 
-Typescript version 3.4.5
-Angular 8
-Node version must be 10, 11, 12, 13
+@angular-devkit/architect 0.803.26 <br />
+@angular-devkit/build-angular 0.803.26 <br />
+@angular-devkit/build-optimizer 0.803.26 <br />
+@angular-devkit/build-webpack 0.803.26 <br />
+@angular-devkit/core 8.3.26<br />
+@angular-devkit/schematics 8.3.26<br />
+@angular/cli 8.3.26<br />
+@ngtools/webpack 8.3.26<br />
+@schematics/angular 8.3.26<br />
+@schematics/update 0.803.26<br />
+rxjs 6.5.5<br />
+typescript 3.5.3<br />
+webpack 4.39.2<br />
+Node version must be 10, 11, 12, 13<br />

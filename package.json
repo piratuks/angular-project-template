@@ -26,6 +26,7 @@
   "keywords": [
     "Angular project"
   ],
+  "license": "MIT",
   "private": true,
   "dependencies": {
     "@angular/animations": "~8.2.14",
