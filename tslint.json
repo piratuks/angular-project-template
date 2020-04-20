@@ -1,5 +1,5 @@
 {
-  "extends": ["@piratuks/code-style-config/tslint"],
+  "extends": ["@piratuks/tslint-config-code-style"],
   "linterOptions": {
     "exclude": ["./e2e/**", "./src/polyfills.ts", "./src/test.ts", "./src/environments/**", "./src/main.ts"]
   }

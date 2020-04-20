@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.0. <br />
 This is preferred empty project template which contains:
 
-- Preferred lint rules which are implemented with https://github.com/piratuks/code-style-config
+- Preferred lint rules which are implemented with https://github.com/piratuks/tslint-config-code-style
 - Prettier integration.
 - Husky and Lint-staged integration.
 - Translation module ready for further explotation.
